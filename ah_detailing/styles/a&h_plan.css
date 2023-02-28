@@ -173,3 +173,44 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+#logo{
+  width: 100px;
+}
+.subaru{
+  width: 50%;
+}
+
+.lines_corvete{
+  width: 50%;
+}
+.tire-dressing{
+  width: 50%;
+}
+.waggoner-wax{
+  width: 50%;
+}
+
+#home{
+  width: 100%;
+}
+
+.master{
+  width: 200px;
+}
+
+.classic{
+  width: 200px;
+}
+
+.basic{
+  width: 200px;
+}
+
+.about_img{
+  width: 50%;
+}
+
+.garage_img{
+  width: 50%;
+}
