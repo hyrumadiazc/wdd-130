@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Josefin+Sans:wght@300&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+    text-align: center;
+  }
+  
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  /* Header */
+  
+  header {
+    background-image: url('images/card.jpg');
+    background-size: cover;
+    background-position: center top;
+    height: 75px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+  }
+  
+  nav a {
+    color: #E7C24F;
+    text-decoration: none;
+    margin: 0 75px;
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+  }
+  
+  nav a:before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #E7C24F;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+  }
+  
+  nav a:hover:before {
+    transform: scaleX(1);
+  }
+  
+  .logo {
+    height: 60px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .logo:hover {
+    transform: scale(1.1);
+  }
+  /* Main Content Styles */
+  
+  #ah_car {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  
+  #ah_box {
+    position: relative;
+    display: inline-block;
+  }
+  
+  #ah_img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  #ah_text {
+    position: absolute;
+    top: 85%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: #fff;
+  }
+  
+  .home-title {
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+  }
+
+  .button-box {
+    display: inline-block;
+    margin-top: 1rem;
+  }
+  
+  
+  h4 {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+  }
+  
+  .quote {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    
+  }
+  
+  .quote:hover {
+    background-color: #000;
+    color: #fff;
+  }
+
+  /* home */
+  .home-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 50px;
+    padding: 100px 50px;
+    background-color: #ffffff;
+  }
+  
+  .intro {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Josefin Sans';
+  }
+  
+  .intro h2 {
+    margin-top: 0;
+    font-size: 2em;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  .intro p {
+    margin-top: 20px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: #666666;
+  }
+  
+  /* Work section */
+  .home-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
+  
+  .home-grid h2 {
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  .first, .second, .third {
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .first, .third {
+    height: auto;
+  }
+  
+  .second {
+    height: auto;
+  }
+  
+  /* Footer section */
+  footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #666666;
+  }
+  
+  footer a {
+    color: #000000;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  .social {
+    margin-top: 10px;
+    display: flex;
+  }
+  
+  .social img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
